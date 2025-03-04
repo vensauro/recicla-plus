@@ -1,24 +1,27 @@
 import 'package:flutter/material.dart';
-import 'package:recicla_plus/endScreen.dart';
-import 'package:recicla_plus/game.dart';
+import 'package:recicla_plus_2/end_screen.dart';
+import 'package:recicla_plus_2/game.dart';
+import 'package:recicla_plus_2/start_screen.dart';
 
-import 'startScreen.dart';
-import 'game.dart';
-import 'endScreen.dart';
+void main() {
+  runApp(const ReciclaPlusApp());
+}
 
-void main() => runApp(MyApp());
+class ReciclaPlusApp extends StatelessWidget {
+  const ReciclaPlusApp({super.key});
 
-class MyApp extends StatelessWidget {
-  // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
       theme: ThemeData(
         fontFamily: 'PressStart',
+        colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
       ),
       home: StartScreen(),
       routes: {
-        '/game': (context) => ReclicaGame(),
+        '/game': (context) => Game(),
         '/points': (context) => EndScreen(),
       },
     );
