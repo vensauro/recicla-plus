@@ -1,6 +1,6 @@
 {
-    "name": "recicla_plus_2",
-    "short_name": "recicla_plus_2",
+    "name": "recicla_plus",
+    "short_name": "recicla_plus",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#hexcode",

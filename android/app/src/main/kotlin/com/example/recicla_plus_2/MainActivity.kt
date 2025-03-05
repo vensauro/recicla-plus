@@ -1,4 +1,4 @@
-package com.example.recicla_plus_2
+package dev.ivensauro.recicla_plus
 
 import io.flutter.embedding.android.FlutterActivity
 

@@ -3,7 +3,7 @@ import 'dart:math';
 import 'package:audioplayers/audioplayers.dart';
 import 'package:flutter/material.dart';
 import 'package:quiver/async.dart';
-import 'package:recicla_plus_2/drag_widgets.dart';
+import 'package:recicla_plus/drag_widgets.dart';
 
 import 'domains.dart';
 

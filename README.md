@@ -1,4 +1,4 @@
-# recicla_plus_2
+# recicla_plus
 
 A new Flutter project.
 

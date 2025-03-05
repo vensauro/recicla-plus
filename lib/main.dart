@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:recicla_plus_2/end_screen.dart';
-import 'package:recicla_plus_2/game.dart';
-import 'package:recicla_plus_2/start_screen.dart';
+import 'package:recicla_plus/end_screen.dart';
+import 'package:recicla_plus/game.dart';
+import 'package:recicla_plus/start_screen.dart';
 
 void main() {
   runApp(const ReciclaPlusApp());
